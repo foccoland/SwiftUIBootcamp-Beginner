@@ -44,6 +44,10 @@ struct StateBootcamp: View {
             .foregroundColor(.white)
         }
     }
+    
+    func foo() -> String {
+        return ""
+    }
 }
 
 struct StateBootcamp_Previews: PreviewProvider {
